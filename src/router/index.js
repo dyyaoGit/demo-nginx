@@ -14,6 +14,10 @@ export default new Router({
     {
       path: '/second',
       component: () => import('@/views/second')
+    },
+    {
+      path: '/three',
+      component: () => import('@/views/three')
     }
   ]
 })
